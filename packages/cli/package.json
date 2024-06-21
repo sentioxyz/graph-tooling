@@ -1,5 +1,5 @@
 {
-  "name": "@graphprotocol/graph-cli",
+  "name": "@sentio/graph-cli",
   "version": "0.80.0",
   "description": "CLI for building for and deploying to The Graph",
   "license": "(Apache-2.0 OR MIT)",

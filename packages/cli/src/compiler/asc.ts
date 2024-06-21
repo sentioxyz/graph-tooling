@@ -68,6 +68,7 @@ export const compile = ({ inputFile, global, baseDir, libs, outputFile }: Compil
     outputFile,
     '--optimize',
     '--debug',
+    '--sourceMap',
   ];
 
   assemblyScriptCompiler(compilerArgs, compilerDefaults);

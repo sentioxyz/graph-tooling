@@ -246,9 +246,9 @@ export default class DeployCommand extends Command {
               queries = base + queries;
             }
 
-            print.success(`Deployed to ${playground}`);
-            print.info('\nSubgraph endpoints:');
-            print.info(`Queries (HTTP):     ${queries}`);
+            // print.success(`Deployed to ${playground}`);
+            // print.info('\nSubgraph endpoints:');
+            // print.info(`Queries (HTTP):     ${queries}`);
             print.info(``);
             process.exit(0);
           }
@@ -391,10 +391,10 @@ export default class DeployCommand extends Command {
             if (isHostedService) {
               print.success(`Deployed to https://thegraph.com/explorer/subgraph/${subgraphName}`);
             } else {
-              print.success(`Deployed to ${playground}`);
+              // print.success(`Deployed to ${playground}`);
             }
-            print.info('\nSubgraph endpoints:');
-            print.info(`Queries (HTTP):     ${queries}`);
+            // print.info('\nSubgraph endpoints:');
+            // print.info(`Queries (HTTP):     ${queries}`);
             print.info(``);
             process.exit(0);
           }

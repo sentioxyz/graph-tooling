@@ -995,6 +995,7 @@ function printNextSteps(
     };
   },
 ) {
+  return;
   const relativeDir = path.relative(process.cwd(), directory);
 
   // Print instructions
